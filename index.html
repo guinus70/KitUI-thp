@@ -1,0 +1,306 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <link type="text/css" rel="stylesheet" href="bootstrap.min.css">
+    <title>kit UI - Eventbetter</title>
+
+<!-------------------------------NAVBAR--------------------------------->
+    <div class="navbar navbar-expand-lg fixed-top navbar-dark bg-primary">
+        <div class="container">
+            <a href="./index.html" class="navbar-brand">Index</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../help/">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://blog.bootswatch.com/">Créer un événement</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" id="themes">Mon espace</a>
+                        <div class="dropdown-menu" aria-labelledby="themes">
+                            <a class="dropdown-item" href="../default/">Voir mon profil</a>
+                            <a class="dropdown-item" href="../default/">Voir mes événements</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Se déconnecter</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" id="themes">Navigation intra-Kit</a>
+                      <div class="dropdown-menu" aria-labelledby="themes">
+                          <a class="dropdown-item" href="./authentification_form.html">Voir les exemples de forms</a>
+                          <a class="dropdown-item" href="./banner.html">Voir les exemples de banners</a>
+                          <a class="dropdown-item" href="./card.html">Voir les exemples de cards</a>
+                          <a class="dropdown-item" href="./comments.html">Voir les exemples de comments</a>
+                          <a class="dropdown-item" href="./event.html">Voir les exemples de events</a>
+                          <a class="dropdown-item" href="./footer.html">Voir les exemples de footers</a>
+                          <a class="dropdown-item" href="./navbar.html">Voir les exemples de navbar</a>
+                      </div>
+                  </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</head>
+
+<body>
+    <!-------------------------------ATOMES--------------------------------->
+    <div class="container">
+        <h1>Kit UI</h1>
+
+        <!-------------------------------TEXTE--------------------------------->
+        <div class="container">
+            <div class="container">
+                <h2>Saisie de textes</h2>
+                <br />
+
+                <h1>Heading 1 <small class="text-muted">with muted text</small></h1> <br />
+                <h2>Heading 2</h2> <br />
+                <h3>Heading 3</h3> <br />
+                <p class="lead">Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
+                <br />
+
+                <p>Nullam quis risus eget <a href="#">urna mollis ornare</a> vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam id dolor id nibh ultricies vehicula.</p>
+            </div>
+        </div>
+
+        <!-------------------------------BOUTONS--------------------------------->
+        <div class="container">
+            <h2>Boutons</h2>
+            <div class="row">
+                <div class="col-lg-7">
+                    <p class="bs-component">
+                        <button type="button" class="btn btn-primary">Primary</button>
+                        <button type="button" class="btn btn-secondary">Secondary</button>
+                        <button type="button" class="btn btn-success">Success</button>
+                        <button type="button" class="btn btn-warning">Warning</button>
+                        <button type="button" class="btn btn-danger">Danger</button>
+                        <button type="button" class="btn btn-link">Link</button>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!------------------------------MOLECULES------------------------------->
+    <!-------------------------------HEADER--------------------------------->
+
+    <div class="container">
+        <h1 id="typography">Header</h1>
+        <div class="header">
+            <div class="container">
+                <div class="jumbotron">
+                    <h1 class="display-3">Event bright, Even brighter, Eventbetter !</h1>
+                    <p class="lead">Blabla</p>
+                    <hr class="my-4">
+                    <p>Blablabla</p>
+                    <p class="lead">
+                        <a class="btn btn-primary btn-lg" href="#" role="button">S'inscrire</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="container">
+            <div class="jumbotron">
+                <h3 class="display-6">Evenement numéro 12</h3>
+                <p class="lead">Blabla</p>
+            </div>
+        </div>
+
+        <!-------------------------------CONTENT--------------------------------->
+        <h1 id="typography">Grid</h1>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-8">
+                    <div class="row"><h2>Blabla</h2></div>
+                    <div class="row"><p>Lorem ipsum</p></div>
+                </div>
+                <div class="col-4">
+                    <div class="row"><img src="" class="img-fluid" alt="Image"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-4">
+                    <div class="row"><img src="" class="img-fluid" alt="Image"></div>
+                </div>
+                <div class="col-8">
+                    <div class="row"><h2>Blabla</h2></div>
+                    <div class="row"><p>Lorem ipsum</p></div>
+                </div>
+            </div>
+        </div>
+
+        <!-------------------------------CARDS--------------------------------->
+        <div class="container">
+            <div class="row">
+                <div class="card border-primary mb-3 mx-auto" style="max-width: 20rem;">
+                    <div class="card-header">Evenement</div>
+                    <div class="card-body">
+                        <h4 class="card-title">Titre de l'évenement</h4>
+                        <p class="card-text">Description de l'événement et auteur.</p>
+                    </div>
+                </div>
+
+                <div class="card border-primary mb-3 mx-auto" style="max-width: 20rem;">
+                    <div class="card-header">Evenement</div>
+                    <div class="card-body">
+                        <h4 class="card-title">Titre de l'évenement</h4>
+                        <p class="card-text">Description de l'événement et auteur.</p>
+                    </div>
+                </div>
+
+                <div class="card border-primary mb-3 mx-auto" style="max-width: 20rem;">
+                    <div class="card-header">Evenement</div>
+                    <div class="card-body">
+                        <h4 class="card-title">Titre de l'évenement</h4>
+                        <p class="card-text">Description de l'événement et auteur.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-------------------------------CARDS V2--------------------------------->
+
+        <div class="my-3 p-3 bg-white rounded box-shadow">
+            <h6 class="border-bottom border-gray pb-2 mb-0">Participants</h6>
+            <div class="media text-muted pt-3">
+                <div class="media-body pb-3 mb-0 small lh-125 border-bottom border-gray">
+                    <div class="d-flex justify-content-between align-items-center w-100">
+                        <strong class="text-gray-dark">Full Name</strong>
+                        <a href="#">Follow</a>
+                    </div>
+                    <span class="d-block">@username</span>
+                </div>
+            </div>
+            <div class="media text-muted pt-3">
+                <div class="media-body pb-3 mb-0 small lh-125 border-bottom border-gray">
+                    <div class="d-flex justify-content-between align-items-center w-100">
+                        <strong class="text-gray-dark">Full Name</strong>
+                        <a href="#">Follow</a>
+                    </div>
+                    <span class="d-block">@username</span>
+                </div>
+            </div>
+            <div class="media text-muted pt-3">
+                <div class="media-body pb-3 mb-0 small lh-125 border-bottom border-gray">
+                    <div class="d-flex justify-content-between align-items-center w-100">
+                        <strong class="text-gray-dark">Full Name</strong>
+                        <a href="#">Follow</a>
+                    </div>
+                    <span class="d-block">@username</span>
+                </div>
+            </div>
+            <small class="d-block text-right mt-3">
+                <a href="#">All suggestions</a>
+            </small>
+        </div>
+
+        <!---------------------------FORMULAIRE-------------------------------->
+
+        <div class="col-8 mx-auto">
+            <form>
+                <fieldset>
+                    <legend>Legend</legend>
+                    <div class="form-group row">
+                        <label for="staticEmail" class="col-sm-2 col-form-label">Email</label>
+                        <div class="col-sm-10">
+                            <input type="text" readonly="" class="form-control-plaintext" id="staticEmail" value="email@example.com">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Email address</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputPassword1">Password</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleSelect1">Example select</label>
+                        <select class="custom-select">
+                            <option selected="">Open this select menu</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleTextarea">Example textarea</label>
+                        <textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <div class="input-group mb-3">
+                            <div class="custom-file">
+                                <input type="file" class="custom-file-input" id="inputGroupFile02">
+                                <label class="custom-file-label" for="inputGroupFile02">Choose file</label>
+                            </div>
+                            <div class="input-group-append">
+                                <span class="input-group-text">Upload</span>
+                            </div>
+                        </div>
+                        <small id="fileHelp" class="form-text text-muted">This is some placeholder block-level help text for the above input. It's a bit lighter and easily wraps to a new line.</small>
+                    </div>
+                    <fieldset class="form-group">
+                        <legend>Checkboxes</legend>
+                        <div class="form-check">
+                            <label class="form-check-label">
+                                <input class="form-check-input" type="checkbox" value="" checked="">
+                                Option one is this and that—be sure to include why it's great
+                            </label>
+                        </div>
+                        <div class="form-check disabled">
+                            <label class="form-check-label">
+                                <input class="form-check-input" type="checkbox" value="" disabled="">
+                                Option two is disabled
+                            </label>
+                        </div>
+                    </fieldset>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </fieldset>
+            </form>
+        </div>
+    </div>
+
+    <!-------------------------------FOOTER--------------------------------->
+    <div class="container">
+        <div class="footer">
+            <div class="row">
+                <div class="col">
+                    <a href="#">Plan du site</a>
+                </div>
+                <div class="col">
+                    <a href="#">Mentions légales</a>
+                </div>
+                <div class="col">
+                    <a href="#">Politique de Confidentialité</a>
+                </div>
+                <div class="col">
+                    <a href="#">Conditions Générales d'Utilisation</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-----------------------------JAVASCRIPT------------------------------->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
